@@ -1,4 +1,4 @@
-import 'package:meta/meta.dart';
+// import 'package:meta/meta.dart';
 
 // An immutable object
 class Name {
@@ -25,9 +25,9 @@ class Name {
 
   // Dart has the factory pattern baked into the language
   factory Name.fromValues({
-    String title,
-    @required String first,
-    @required String last,
+    String? title,
+    required String first,
+    required String last,
   }) {
     // optional properties can be annotated @required,
     // but this is just for the IDE, not the language.

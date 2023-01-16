@@ -1,7 +1,7 @@
 class UrlBuilder {
-  String scheme;
-  String host;
-  List<String> routes;
+  late String scheme;
+  late String host;
+  late List<String> routes;
 
   @override
   String toString() {

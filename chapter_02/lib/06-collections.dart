@@ -1,4 +1,4 @@
-import 'package:introduction_to_dart/04-classes.dart';
+import '04-classes.dart';
 
 void collectionPlayground() {
   listPlayground();
@@ -42,8 +42,8 @@ void mapPlayground() {
 
   ages.remove('Peter');
 
-  ages.forEach((String name, int age) {
-    print('$name is $age years old');
+  ages.forEach((k, v) {
+    print('$k is $v years old');
   });
 
   final james = Name('James', 'Buchanan');

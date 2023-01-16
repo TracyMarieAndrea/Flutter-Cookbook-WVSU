@@ -1,4 +1,4 @@
-import 'package:introduction_to_dart/04-classes.dart';
+import '04-classes.dart';
 
 void higherOrderFunctions() {
   final names = mapping();

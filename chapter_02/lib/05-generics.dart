@@ -43,14 +43,14 @@ class LoggableString implements Loggable {
 // A generic function.
 // The type is defined between the name of the function
 // and the parameter list
-T adder<T extends num>(T a, T b) {
+num adder<T extends num>(T a, T b) {
   return a + b;
 }
 
 void genericsPlayground() {
   final a = Optional<int>(10);
   final b = Optional<int>(100);
-  final nothing = Optional<double>(null);
+  final nothing = Optional<double>(0.0);
   print(a.value);
   print(b.value);
   print(nothing.exists());

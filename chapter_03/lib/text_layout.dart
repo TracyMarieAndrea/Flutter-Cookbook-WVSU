@@ -12,7 +12,7 @@ class TextLayout extends StatelessWidget {
         ),
         Text(
           'Text can wrap without issue',
-          style: Theme.of(context).textTheme.title,
+          style: Theme.of(context).textTheme.headline6,
         ),
         Text(
             'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam at mauris massa. Suspendisse potenti. Aenean aliquet eu nisl vitae tempus.'),

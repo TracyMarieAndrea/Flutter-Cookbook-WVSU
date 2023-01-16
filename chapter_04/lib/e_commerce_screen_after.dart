@@ -38,7 +38,7 @@ class ECommerceScreen extends StatelessWidget {
                 children: <Widget>[
                   Text(
                     'Lorem Ipsum',
-                    style: Theme.of(context).textTheme.title,
+                    style: Theme.of(context).textTheme.headline6,
                   ),
                   Text(
                     'Dolor sit amet, consectetur adipiscing elit. Quisque faucibus.',
@@ -72,7 +72,7 @@ class ECommerceScreen extends StatelessWidget {
           fontSize: 17,
           color: selected
               ? null
-              : Theme.of(context).textTheme.title.color.withOpacity(0.5),
+              : Theme.of(context).textTheme.headline6.color.withOpacity(0.5),
           fontWeight: selected ? FontWeight.bold : null,
         ),
       ),

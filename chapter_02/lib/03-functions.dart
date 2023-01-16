@@ -39,14 +39,14 @@ void classicalFunctions() {
 ///////////////////////////
 
 // Wrap optional parameters in square brackets
-void unnamed([String name, int age]) {
+void unnamed([String? name, int? age]) {
   final actualName = name ?? 'Unknown';
   final actualAge = age ?? 0;
   print('$actualName is $actualAge years old.');
 }
 
 // Wrap named optional parameters in curly brackets
-void named({String greeting, String name}) {
+void named({String? greeting, String? name}) {
   final actualGreeting = greeting ?? 'Hello';
   final actualName = name ?? 'Mystery Person';
   print('$actualGreeting, $actualName!');
@@ -87,8 +87,8 @@ void optionalParameters() {
 // Define closure types for easy use
 typedef int numberGetter();
 
-int powerOfTwo({numberGetter getter}) {
-  return getter() * getter();
+int powerOfTwo({numberGetter? getter}) {
+  return getter!() * getter();
 }
 
 // Or don't define the closure ahead of time

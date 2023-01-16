@@ -1,6 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_layout/e_commerce_screen_after.dart';
+import 'package:flutter_layout/basic_screen.dart';
 
 void main() => runApp(StaticApp());
 
@@ -13,15 +13,13 @@ class StaticApp extends StatelessWidget {
         primaryColor: Colors.green,
         appBarTheme: AppBarTheme(
           elevation: 10,
-          textTheme: TextTheme(
-            title: TextStyle(
-              fontFamily: 'LeckerliOne',
-              fontSize: 24,
-            ),
+          titleTextStyle: TextStyle( // change from TextTheme
+            fontFamily: 'LeckerliOne',
+            fontSize: 24,
           ),
         ),
       ),
-      home: ECommerceScreen(),
+      home: BasicScreen(),
     );
   }
 }

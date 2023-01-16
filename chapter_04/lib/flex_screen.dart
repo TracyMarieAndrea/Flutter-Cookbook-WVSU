@@ -28,7 +28,7 @@ class FlexScreen extends StatelessWidget {
       SizedBox(height: 20),
       Text(
         text,
-        style: Theme.of(context).textTheme.headline,
+        style: Theme.of(context).textTheme.headline1,
       ),
     ];
   }
@@ -108,7 +108,7 @@ class FlexScreen extends StatelessWidget {
             ),
             child: Text(
               'Pinned to the Bottom',
-              style: Theme.of(context).textTheme.subtitle,
+              style: Theme.of(context).textTheme.subtitle1,
             ),
           ),
         ),

@@ -1,7 +1,7 @@
 class UrlBuilder {
-  String _scheme;
-  String _host;
-  String _path;
+  late String _scheme;
+  late String _host;
+  late String _path;
 
   UrlBuilder setScheme(String value) {
     _scheme = value;

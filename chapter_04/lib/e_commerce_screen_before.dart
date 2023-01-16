@@ -34,7 +34,7 @@ class ECommerceScreen extends StatelessWidget {
                     'Recommended',
                     style: TextStyle(
                       color: Colors.white,
-                      fontSize: 17,
+                      fontSize: 15,
                       fontWeight: FontWeight.bold,
                     ),
                   ),
@@ -45,7 +45,7 @@ class ECommerceScreen extends StatelessWidget {
                     'Formal Wear',
                     style: TextStyle(
                       color: Colors.white54,
-                      fontSize: 17,
+                      fontSize: 15,
                       fontWeight: FontWeight.bold,
                     ),
                   ),
@@ -56,7 +56,7 @@ class ECommerceScreen extends StatelessWidget {
                     'Casual Wear',
                     style: TextStyle(
                       color: Colors.white54,
-                      fontSize: 17,
+                      fontSize: 15,
                       fontWeight: FontWeight.bold,
                     ),
                   ),
@@ -168,7 +168,7 @@ class ECommerceScreen extends StatelessWidget {
                         children: <Widget>[
                           Text(
                             'Lorem Ipsum',
-                            style: Theme.of(context).textTheme.title,
+                            style: Theme.of(context).textTheme.headline6,
                           ),
                           Text(
                               'Dolor sit amet, consectetur adipiscing elit. Quisque faucibus.')
