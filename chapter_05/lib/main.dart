@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:stopwatch/login_screen.dart';
 import './stopwatch.dart';
+import 'login_screen.dart';
 
 void main() => runApp(StopwatchApp());
 
