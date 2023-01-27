@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_secure_storage/flutter_secure_storage.dart';
-import 'package:store_data/pizza.dart';
+import 'pizza.dart';
 
 import 'httphelper.dart';
 import 'pizza_detail.dart';
