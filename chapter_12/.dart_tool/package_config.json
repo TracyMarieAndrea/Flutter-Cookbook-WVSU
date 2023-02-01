@@ -117,13 +117,31 @@
     },
     {
       "name": "firebase_core_platform_interface",
-      "rootUri": "file:///C:/Users/students/AppData/Local/Pub/Cache/hosted/pub.dartlang.org/firebase_core_platform_interface-4.5.2",
+      "rootUri": "file:///C:/Users/students/AppData/Local/Pub/Cache/hosted/pub.dartlang.org/firebase_core_platform_interface-4.5.1",
       "packageUri": "lib/",
       "languageVersion": "2.16"
     },
     {
       "name": "firebase_core_web",
       "rootUri": "file:///C:/Users/students/AppData/Local/Pub/Cache/hosted/pub.dartlang.org/firebase_core_web-1.7.3",
+      "packageUri": "lib/",
+      "languageVersion": "2.16"
+    },
+    {
+      "name": "firebase_messaging",
+      "rootUri": "file:///C:/Users/students/AppData/Local/Pub/Cache/hosted/pub.dartlang.org/firebase_messaging-13.0.3",
+      "packageUri": "lib/",
+      "languageVersion": "2.16"
+    },
+    {
+      "name": "firebase_messaging_platform_interface",
+      "rootUri": "file:///C:/Users/students/AppData/Local/Pub/Cache/hosted/pub.dartlang.org/firebase_messaging_platform_interface-4.1.5",
+      "packageUri": "lib/",
+      "languageVersion": "2.16"
+    },
+    {
+      "name": "firebase_messaging_web",
+      "rootUri": "file:///C:/Users/students/AppData/Local/Pub/Cache/hosted/pub.dartlang.org/firebase_messaging_web-3.1.5",
       "packageUri": "lib/",
       "languageVersion": "2.16"
     },
@@ -338,7 +356,7 @@
       "languageVersion": "2.7"
     }
   ],
-  "generated": "2023-01-26T09:18:15.556598Z",
+  "generated": "2023-02-01T04:30:01.125238Z",
   "generator": "pub",
   "generatorVersion": "2.18.6"
 }

@@ -1,7 +1,7 @@
 import 'package:cookbook_ch_12/shared/firebase_authentication.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
-// import 'package:firebase_messaging/firebase_messaging.dart';
+import 'package:firebase_messaging/firebase_messaging.dart';
 import './happy_screen.dart';
 import './upload_file.dart';
 
@@ -22,7 +22,7 @@ class _LoginScreenState extends State<LoginScreen> {
   void initState() {
     Firebase.initializeApp().whenComplete(() {
       auth = FirebaseAuthentication();
-      // FirebaseMessaging.onBackgroundMessage(_firebaseBackgroundMessageReceived);
+      FirebaseMessaging.onBackgroundMessage(_firebaseBackgroundMessageReceived);
       setState(() {});
     });
     super.initState();
@@ -208,12 +208,14 @@ class _LoginScreenState extends State<LoginScreen> {
   }
 
   void changeScreen() {
+    // Navigator.push(
+    //   context, MaterialPageRoute(builder: (context) => UploadFileScreen()));
     Navigator.push(
-        context, MaterialPageRoute(builder: (context) => UploadFileScreen()));
+      context, MaterialPageRoute(builder: (context) => HappyScreen()));
   }
 
- // Future _firebaseBackgroundMessageReceived(RemoteMessage message) async {
- //   print(
- //       "Notification: ${message.notification.title} - ${message.notification.body}");
- //  }
+ Future _firebaseBackgroundMessageReceived(RemoteMessage message) async {
+   print(
+       "Notification: ${message.notification.title} - ${message.notification.body}");
+  }
 }

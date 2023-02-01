@@ -18,6 +18,7 @@ class _HappyScreenState extends State<HappyScreen> {
           child: Text('I\'m happy!'),
           onPressed: () {
             FirebaseAnalytics().logEvent(name: 'Happy', parameters: null);
+            print("Firebase event!");
           },
         ),
       ),
